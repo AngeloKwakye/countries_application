@@ -1,0 +1,30 @@
+.navbar_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+}
+
+.logo h1{
+    font-size: 1rem;
+}
+.nav_links{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav_links a{
+    color: rgb(97, 95, 95);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+}
+
+.nav_links a:is(:hover, :focus){
+    color: black;
+}
