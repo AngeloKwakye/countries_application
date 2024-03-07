@@ -39,10 +39,16 @@ export default function Country(){
   return (
     <>
       <div>
-        {country.name.common}
+        Name: <strong> {country.name.common}</strong>
       </div>
       <div>
         <img src={country.flags.png} alt={country.flags.alt} />
+      </div>
+      <div>
+        <img src={country.coatOfArms.svg}/>
+      </div>
+      <div>
+        Ccapital :{country.capital}
       </div>
     </>
   )
